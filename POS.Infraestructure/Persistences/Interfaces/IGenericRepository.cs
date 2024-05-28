@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POS.Infraestructure.Persistences.Interfaces
 {
-    internal interface IGenericRepository<T> where T : class
+    public interface IGenericRepository<T> where T : class
     {
 
     }
